@@ -26,6 +26,8 @@ const Hero = () => {
       "Data Analyst",
       "Passionate Learner",
       "Blogger",
+      "SDE Intern at AWS",
+      "SDE Associate at WRDS",
       "TA for CIT 5930",
       "President for CIT 59x",
       "Vice-President for UPenn TSA",
