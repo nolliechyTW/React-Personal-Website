@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import "../Styles/Hero.css";
 import nollie from "../images/nollie.png";
 import htmlIcon from "../images/html.png";
@@ -18,6 +18,57 @@ import expressIcon from "../images/expressjs.png";
 import typeScriptIcon from "../images/ts.png";
 
 const Hero = () => {
+  useEffect(() => {
+    const typingText = document.querySelector(".text2");
+    const myArray = [
+      "Web Developer",
+      "Student at Penn",
+      "Data Analyst",
+      "Passionate Learner",
+      "Blogger",
+      "TA for CIT 5930",
+      "President for CIT 59x",
+      "Vice-President for UPenn TSA",
+    ];
+
+    let arrayIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typingSpeed = 150;
+    const deletingSpeed = 100;
+    const pauseAfterTyping = 2000;
+    const pauseAfterDeleting = 500;
+
+    function typeEffect() {
+      const currentText = myArray[arrayIndex];
+
+      if (isDeleting) {
+        typingText.textContent = currentText.slice(0, charIndex - 1);
+        charIndex--;
+      } else {
+        typingText.textContent = currentText.slice(0, charIndex + 1);
+        charIndex++;
+      }
+
+      if (!isDeleting && charIndex === currentText.length) {
+        isDeleting = true;
+        setTimeout(typeEffect, pauseAfterTyping);
+        return;
+      }
+
+      if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        arrayIndex = (arrayIndex + 1) % myArray.length; // Cycle through words
+        setTimeout(typeEffect, pauseAfterDeleting);
+        return;
+      }
+
+      setTimeout(typeEffect, isDeleting ? deletingSpeed : typingSpeed);
+    }
+
+    typeEffect();
+  }, []); // Run only once when the component mounts
+
   return (
     <section className="hero" id="home">
       {/* Hero Text Section */}
@@ -26,7 +77,7 @@ const Hero = () => {
         <h1>Hui-Yu (Nollie) Chen</h1>
         <div className="type-container">
           <div className="type-text text1">I'm a</div>
-          <div className="type-text text2">Web Developer</div>
+          <div className="type-text text2"></div>
         </div>
         <p>
           As a passionate developer, I specialize in full-stack software
