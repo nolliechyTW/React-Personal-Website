@@ -35,10 +35,11 @@
 
 .hero-text p {
   font-size: 20px;
-  max-width: 570px;
+  max-width: 720px;
   color: var(--secondary-heading-clr);
   margin: 15px 0 35px;
   line-height: 1.3;
+  text-align: left;
 }
 
 /* Typing Animation */
@@ -65,22 +66,18 @@
   padding-right: 3px;
 }
 
-/* .hero-text .type-container .text2::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: var(--bg-clr-2);
-  border-left: 2px solid #fc852b;
-  animation: animationOne s steps(1000) infinite, animationTwo 5s infinite;
-} */
-
 .hero-text .type-container .text2 {
   color: #fc852b;
   font-weight: bold;
 }
+
+.text2::after {
+    color: black;
+    content: '|';
+    display: inline-block;
+    margin-left: 5px;
+    animation: blink 1s steps(2, start) infinite;
+  }
 
 .btn {
   background-color: var(--primary-base-clr);

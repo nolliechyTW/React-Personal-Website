@@ -82,9 +82,10 @@ const Hero = () => {
           <div className="type-text text2"></div>
         </div>
         <p>
-          As a passionate developer, I specialize in full-stack software
-          development and data analytics, with a keen interest in leveraging my
-          skills in impactful projects.
+        I excel in building scalable and robust full-stack solutions. <br></br>
+        From implementing CI/CD pipelines at AWS to architecting <br></br>
+        full-stack cloud infrastructure for WRDS, I am passionate about <br></br>
+        creating impactful and innovative software.
         </p>
         <a
           href="https://drive.google.com/file/d/1iucr25ekyjK32tLgocAIHzx5YognJX56/view?usp=sharing"
