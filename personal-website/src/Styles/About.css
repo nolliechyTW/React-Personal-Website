@@ -1,0 +1,130 @@
+.about {
+  padding: 70px 8% 50px;
+  background-color: var(--bg-clr-1);
+}
+
+.about-contents {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* About Info Section */
+.about-info {
+  flex-basis: 55%;
+}
+
+.about-info h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: var(--main-heading-clr);
+}
+
+.about-info p {
+  font-size: 20px;
+  color: var(--text-clr);
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Personal Information */
+.about-personal-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px 20px;
+  margin-bottom: 30px;
+}
+
+.about-personal-info div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-personal-info div span {
+  font-size: 18px;
+  color: var(--text-clr);
+  word-break: break-word;
+}
+
+.about-personal-info div span:nth-child(1) {
+  font-weight: bold;
+}
+
+/* Social Media Links */
+.social-media {
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+}
+
+.social-media a {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.social-media a i {
+  font-size: 20px;
+  color: var(--main-heading-clr);
+}
+
+.social-media a:hover {
+  transform: translateY(-5px);
+  background-color: var(--primary-light-clr);
+  color: #fff;
+}
+
+/* Experience Section */
+.about-experience {
+  flex-basis: 40%;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.experience-box {
+  background-color: var(--bg-clr-2);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s;
+}
+
+.experience-box:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  background-color: var(--primary-base-clr);
+  min-width: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.icon i {
+  font-size: 22px;
+  color: var(--main-heading-clr);
+}
+
+.experience-desc h2 {
+  font-size: 20px;
+  color: var(--main-heading-clr);
+  margin-bottom: 5px;
+}
+
+.experience-desc p {
+  font-size: 16px;
+  color: var(--text-clr);
+}
