@@ -1,0 +1,38 @@
+.cta {
+  width: 100%;
+  padding: 70px 8%; /* Adjusted padding for consistency */
+  background-color: var(--bg-clr-2);
+  text-align: center;
+}
+
+.cta p {
+  color: var(--text-clr);
+  word-spacing: 2px;
+  font-size: 18px;
+  margin-bottom: 10px; /* Added spacing for better readability */
+}
+
+.cta h1 {
+  color: var(--main-heading-clr);
+  font-size: 36px;
+  font-weight: 500;
+  margin: 10px 0 25px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+}
+
+.cta-btn {
+  padding: 12px 30px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: var(--secondary-heading-clr);
+  transform: scale(1.05);
+}
