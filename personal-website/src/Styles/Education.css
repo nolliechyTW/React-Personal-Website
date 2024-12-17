@@ -1,0 +1,79 @@
+.education {
+  padding: 90px 8%;
+  background-color: var(--bg-clr-1);
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-heading h1 {
+  font-size: 28px;
+  color: var(--main-heading-clr);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-heading p {
+  font-size: 18px;
+  color: var(--text-clr);
+  line-height: 1.6;
+}
+
+.education-contents {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px; /* Adds space between education-box items */
+  flex-wrap: wrap; /* Allows wrapping if needed */
+}
+
+.education-box {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-clr-2);
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  width: 100%;
+  height: 200px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.education-box:hover {
+  transform: translateY(-5px);
+}
+
+.education-box img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 25px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.education-details {
+  text-align: left;
+}
+
+.education-details h2 {
+  font-size: 22px;
+  color: var(--main-heading-clr);
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.education-details p {
+  font-size: 16px;
+  color: var(--text-clr);
+  line-height: 1.6;
+  margin-bottom: 5px;
+}
+
+.education-details p strong {
+  color: var(--secondary-heading-clr);
+  font-size: 18px;
+}

@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-contents">
         {/* About Info Section */}
         <div className="about-info">
-          <h2>About Me</h2>
+          <h2 className='section-heading'>About Me</h2>
           <p>
             Hello! I'm Hui-Yu (Nollie) Chen, a full-stack developer with a passion for creating meaningful work.<br></br> Currently, I am pursuing
             a Master's degree in Computer Science at the University of Pennsylvania.
