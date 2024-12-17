@@ -76,7 +76,7 @@
 
 .social-media a:hover {
   transform: translateY(-5px);
-  background-color: var(--primary-light-clr);
+  background-color: var(--secondary-heading-clr);
   color: #fff;
 }
 

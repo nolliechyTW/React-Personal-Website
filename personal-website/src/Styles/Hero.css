@@ -105,7 +105,7 @@
 }
 
 .download-btn:hover {
-  background-color: var(--primary-dark-clr);
+  background-color: var(--secondary-heading-clr);
   transform: scale(1.05);
 }
 .download-btn:focus {
