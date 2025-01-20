@@ -6,6 +6,7 @@ import Education from './Components/Education';
 import CTA from './Components/CTA';
 import Experience from './Components/Experience';
 import Projects from './Components/Projects'; 
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <CTA />
       <Experience />
       <Projects />
+      <Contact />
     </div>
   );
 }
