@@ -28,6 +28,7 @@ html{
 	--secondary-heading-clr: #146C94;
 	--text-clr: #213555;
 	--dark-text-clr: #080202;
+	--btn-base-clr: #464121;
 }
 body{
 	width: 100%;

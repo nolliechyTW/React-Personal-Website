@@ -92,7 +92,7 @@
 }
 
 .download-btn {
-  background-color: var(--primary-base-clr);
+  background-color: var(--btn-base-clr);
   color: white;
   padding: 12px 26px;
   font-size: 22px;
