@@ -28,7 +28,7 @@ const Hero = () => {
       "Blogger",
       "SDE Intern at AWS",
       "SDE Associate at WRDS",
-      "TA for CIT 5930",
+      "TA for CIT5930/ CIS2400",
       "President for CIT 59x",
       "Vice-President for UPenn TSA",
     ];
