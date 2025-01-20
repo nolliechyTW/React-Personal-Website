@@ -1,0 +1,92 @@
+.projects {
+  padding: 50px 8%;
+  background-color: var(--bg-clr-2);
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-heading h1 {
+  font-size: 28px;
+  color: var(--main-heading-clr);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-heading p {
+  font-size: 18px;
+  color: var(--text-clr);
+  line-height: 1.6;
+}
+
+/* Align cards horizontally */
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  flex: 1 1 calc(33.333% - 40px); 
+  max-width: 400px;
+  background-color: #fff;
+  padding: 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-details {
+  text-align: left;
+}
+
+.project-details h2 {
+  font-size: 20px;
+  color: var(--main-heading-clr);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.project-details .tech-stack {
+  font-size: 14px;
+  color: var(--secondary-heading-clr);
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+.project-details .description {
+  font-size: 16px;
+  color: var(--text-clr);
+  line-height: 1.6;
+}
+
+.view-all-container {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.view-all-btn {
+  padding: 12px 30px;
+  font-size: 16px;
+  color: #fff;
+  background-color: var(--main-heading-clr);
+  border: none;
+  border-radius: 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.view-all-btn:hover {
+  background-color: var(--secondary-heading-clr);
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
