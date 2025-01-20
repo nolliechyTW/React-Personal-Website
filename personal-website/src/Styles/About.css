@@ -1,5 +1,6 @@
 .about {
   padding: 70px 8% 50px;
+  scroll-margin-top: 100px;
   background-color: var(--bg-clr-1);
 }
 
