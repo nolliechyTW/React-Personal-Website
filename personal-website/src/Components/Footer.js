@@ -21,10 +21,7 @@ const Footer = () => {
           >
             <i className="fab fa-github"></i>
           </a>
-          <a
-            href="mailto:nolliechy@gmail.com"
-            className="footer-social-link"
-          >
+          <a href="mailto:nolliechy@gmail.com" className="footer-social-link">
             <i className="fas fa-envelope"></i>
           </a>
         </div>
