@@ -7,6 +7,7 @@ import CTA from './Components/CTA';
 import Experience from './Components/Experience';
 import Projects from './Components/Projects'; 
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Experience />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 }
