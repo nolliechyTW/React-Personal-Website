@@ -1,0 +1,122 @@
+.experience {
+  padding: 50px 8%;
+  background-color: var(--bg-clr-1);
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-heading h1 {
+  font-size: 28px;
+  color: var(--main-heading-clr);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-heading p {
+  font-size: 18px;
+  color: var(--text-clr);
+  line-height: 1.6;
+}
+
+/* Experience Cards */
+.experience-contents {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.experience-card {
+  perspective: 1000px;
+  width: 400px;
+  height: 400px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.experience-card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-front {
+  background-color: var(--bg-clr-2);
+}
+
+.card-front img {
+  width: 300px;
+  height: auto;
+}
+
+/* Back Side */
+.card-back {
+  background-color: #ffffff;
+  transform: rotateY(180deg);
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-back h2 {
+  font-size: 20px;
+  color: var(--main-heading-clr);
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.card-back h3 {
+  font-size: 16px;
+  color: var(--secondary-heading-clr);
+  margin-bottom: 10px;
+}
+
+.card-back .duration {
+  font-size: 14px;
+  color: var(--text-clr);
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.card-back .details {
+  font-size: 14px;
+  color: var(--text-clr);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.more-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.more-btn:hover {
+  background-color: var(--secondary-heading-clr);
+  transform: scale(1.05);
+}
