@@ -33,14 +33,14 @@ const experiences = [
       "Achieved 60% time savings with Python, TSQL, and Tableau for data cleaning and modeling; created 30+ dashboards to enhance marketing and default prevention.",
     ],
   },
-  {
-    logo: jnjLogo,
-    company: "Johnson & Johnson",
-    role: "Business Analyst Intern",
-    details: [
-      "Developed the Offtake Summary worksheet to automatically organize sales data from different sources, improving productivity by enabling colleagues to access daily performance of all channels in Excel.",
-    ],
-  },
+  // {
+  //   logo: jnjLogo,
+  //   company: "Johnson & Johnson",
+  //   role: "Business Analyst Intern",
+  //   details: [
+  //     "Developed the Offtake Summary worksheet to automatically organize sales data from different sources, improving productivity by enabling colleagues to access daily performance of all channels in Excel.",
+  //   ],
+  // },
 ];
 
 const Experience = () => {
