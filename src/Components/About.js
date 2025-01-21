@@ -8,7 +8,7 @@ const About = () => {
         <div className="about-info">
           <h2 className='section-heading'>About Me</h2>
           <p>
-            Hello! I'm Hui-Yu (Nollie) Chen, a full-stack developer with a passion for creating meaningful work.<br></br> Currently, I am pursuing
+            Hello! I'm Hui-Yu (Nollie) Chen, a full-stack developer with a passion for creating meaningful work. Currently, I am pursuing
             a Master's degree in Computer Science at the University of Pennsylvania.
           </p>
           {/* Personal Information */}

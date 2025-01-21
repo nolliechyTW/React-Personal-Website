@@ -25,8 +25,8 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 30px; /* Adds space between education-box items */
-  flex-wrap: wrap; /* Allows wrapping if needed */
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .education-box {
@@ -39,6 +39,7 @@
   max-width: 700px;
   width: 100%;
   height: 200px;
+  object-fit: contain; /* Maintain aspect ratio */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -76,4 +77,57 @@
 .education-details p strong {
   color: var(--secondary-heading-clr);
   font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .education-contents {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .education-box {
+    flex-basis: 100%; /* Full width for smaller screens */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .education-box img {
+    width: 100px;
+    margin: 0 auto 15px;
+  }
+
+  .education-details {
+    padding: 10px;
+  }
+
+  .education-details h2 {
+    font-size: 18px;
+  }
+
+  .education-details p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-heading h1 {
+    font-size: 24px;
+  }
+
+  .section-heading p {
+    font-size: 14px;
+  }
+
+  .education-box img {
+    width: 80px;
+  }
+
+  .education-details h2 {
+    font-size: 16px;
+  }
+
+  .education-details p {
+    font-size: 12px;
+  }
 }
