@@ -1,6 +1,15 @@
 # React-Personal-Website
 This repository contains the source code for my personal website, built using HTML, CSS, JavaScript, and React. The website serves as a portfolio to showcase my projects, skills, and contact information.
 
+## USAGE AND ATTRIBUTION 
+Please **do not copy and repost this project as your own**. This website reflects my personal experience, work, and identity. You’re welcome to explore the code for learning purposes or as inspiration for your own personal website.
+
+If you found this project helpful and would like to use any part of it in your own work, please give proper credit by including the following line in your README or project documentation:
+
+“Inspired by Nollie Chen’s Personal Website”
+
+Thank you for respecting original work and supporting developers in the community!
+
 ### Technologies Used
 The website is built using the following technologies:
 - HTML
@@ -42,7 +51,6 @@ To use this project locally:
 5. **Build for production (optional)**:
    ```npm run build```
    ; This creates a production-ready build in the build folder.
-6. **All rights reserved by Nollie Chen**
 
 ### Contact
 If you have any questions or feedback regarding this website or its code, please feel free to reach out to me. You can find my contact details on the website or connect with me through LinkedIn.
