@@ -42,6 +42,7 @@ To use this project locally:
 5. **Build for production (optional)**:
    ```npm run build```
    ; This creates a production-ready build in the build folder.
+6. **All rights reserved by Nollie Chen**
 
 ### Contact
 If you have any questions or feedback regarding this website or its code, please feel free to reach out to me. You can find my contact details on the website or connect with me through LinkedIn.
